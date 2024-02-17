@@ -1,4 +1,2 @@
-## Starix-Site
-simple site i built ez
-
-made with html and css and some js
+## Starix Site
+Starix Site, built using HTML and CSS.
