@@ -1,2 +1,4 @@
-# website
-Simple Website - aint done yet
+## Starix-Site
+simple site i built ez
+
+made with html and css and some js
