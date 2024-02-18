@@ -110,3 +110,11 @@ footer a:hover {
 .uni-button:hover {
   background-color: #38648e;
 }
+
+/* img on index.html */
+
+.scrnsht {
+  border-radius: 10px;
+  width: 1024px;
+  height: 576px;
+}
