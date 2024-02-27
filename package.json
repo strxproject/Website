@@ -1,0 +1,24 @@
+{
+  "name": "starix-rewrite",
+  "type": "module",
+  "version": "0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^2.1.1",
+    "@astrojs/rss": "^4.0.5",
+    "@astrojs/sitemap": "^3.1.1",
+    "astro": "^4.4.5",
+    "astro-icon": "^1.1.0",
+    "simple-icons-astro": "^11.6.0"
+  },
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.1.64",
+    "@iconify-json/simple-icons": "^1.1.93"
+  }
+}

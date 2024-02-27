@@ -1,0 +1,44 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h2>Starix Downloads</h2>
+			<p>
+				Welcome to the Starix Downloads
+			</p>
+			<a href="https://starixproject.lol/Starix Project 0.2.2.iso" class="download-button">Download (Europe mirror)</a>
+			<a href="https://downloadstarix.ftp.sh/Starix Project 0.2.2.iso" class="download-button">Download (USA mirror)</a>
+			<p>
+				Have fun using Starix! If you get stuck, Join the <a href="https://discord.gg/Hr7tC837ZW">Discord</a> to ask questions.
+			</p>
+			<style>
+				.download-button {
+  					display: inline-block;
+  					padding: 10px 20px; 
+  					background-color: #4caf50;
+  					color: #fff;
+ 					text-decoration: none;
+  					border-radius: 10px;
+					box-shadow: var(--box-shadow);
+  					transition: background-color 0.3s ease-in-out;
+				}
+
+				.download-button:hover {
+  					background-color: #388e3c;
+				}
+			</style>
+		</main>
+		<Footer />
+	</body>
+</html>

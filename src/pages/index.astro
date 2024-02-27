@@ -1,0 +1,34 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h2>Welcome to Starix</h2>
+			<p>
+				Welcome to the official Starix Site.
+			<p>
+				Some key features of Starix
+			</p>
+			<ul>
+				<li>Classic Windows 9x user interface design</li>
+				<li>Modern performance and compatibility enhancements</li>
+				<li>User-friendly customization options</li>
+				<li>Escargot Chat built-in!</li>
+			</ul>
+			<p>
+				Have fun using Starix! If you get stuck, Join the <a href="https://discord.gg/Hr7tC837ZW">Discord</a> to ask questions.
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
