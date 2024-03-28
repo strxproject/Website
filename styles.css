@@ -1,0 +1,133 @@
+/* Starix Styles (global) */
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #333;
+}
+
+nav {
+    background-color: #444;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav img.logo {
+    height: 60px;
+    vertical-align: middle;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav li {
+    margin-left: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+/* Adjust spacing between SVG links */
+nav ul li:not(:last-child) {
+    margin-right: 5px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+nav ul li img:not(.logo) {
+    height: 25px;
+    width: auto;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+nav ul li img:not(.logo):hover {
+    opacity: 1.0;
+}
+
+/* Download button styles */
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+  
+.download-button:hover {
+    transform: translateY(-2px);
+}
+  
+.download-button:active {
+    transform: translateY(1px);
+}
+
+/* Styles for navigation links */
+.nav-links, .svg-links {
+    display: flex;
+    align-items: center;
+}
+
+.separator {
+    width: 1px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 10px;
+}
+
+/* footer */
+/* top 10 things that wont land me in jail 1. the footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0; /* Align to the left edge of the viewport */
+    width: 100%; /* Full width */
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box; /* Include padding and border in the total width */
+    display: flex;
+    align-items: center; /* Vertically align content */
+    justify-content: center; /* Horizontally center content */
+}
+
+.windows-logo {
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
