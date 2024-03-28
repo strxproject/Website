@@ -102,6 +102,9 @@ nav ul li img:not(.logo):hover {
     align-items: center;
 }
 
+/* fucking hell idek how but this made it better */
+/* but idk i think this isnt even called anywhere so idk if i should delete it lmfao */
+/* amma keep it for these comments lol */
 .separator {
     width: 1px;
     height: 20px;
